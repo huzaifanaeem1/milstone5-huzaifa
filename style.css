@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color:#f2e5d6;;
+}
+
+h1{
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #795644;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color:#e3c099;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+fieldset {
+    border: 2px solid #6b3e2e;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#e3c099;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0, auto;
+    border: 2px solid #6b3e2e;
+    box-shadow: 0 4px 8px rgb(108, 59, 39);
+    border-radius: 500%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+legend{
+    font-weight: bold;
+    text-align: center;
+    color: #6b3e2e;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #6b3e2e;
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #6b3e2e;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6b3e2e;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #a1785c;
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    color:  #6b3e2e;
+    border: 2px solid #6b3e2e;
+    border-radius: 8px;
+    background-color:#ccb494;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6)
+}
+
+#resumeOutput h2{
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #6b3e2e;
+}
+
+/* Button container */
+#buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#buttonContainer button {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+    background-color: #6b3e2e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonContainer button:hover {
+    background-color: #a1785c;
+}
